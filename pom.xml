@@ -25,6 +25,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+
 		</dependency>
 
 		<dependency>
@@ -45,6 +46,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <mainClass>com.example.handlingformsubmission.Greeting</mainClass>
+            </configuration>
 			</plugin>
 		</plugins>
 	</build>
